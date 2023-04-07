@@ -1,0 +1,110 @@
+.nav-menu {
+    padding: 0.5rem 1rem;
+}
+
+.meeting-header {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.feature-container {
+    margin: 0 1rem;
+}
+
+.second-feature {
+    overflow-wrap: normal;
+}
+
+.second-feature-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.go-button {
+    color: white;
+    background-color: #FA6E83;
+    border-color: #FA6E83;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-colors {
+    background-image: url('../Images/Rectangle\ 320Nav.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.squiggly {
+    background-image: url('../Images/FrameSquiggly.svg');
+    background-size: cover;
+    padding: 20px;
+    height: 600px;
+  }
+
+.squiggly-text {
+    color: white;
+}
+
+.circle-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.predict-button {
+    background-color: #FA6E83; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add some padding */
+    font-size: 16px; /* Set the font size */
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.feature-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.faq-container {
+    text-align: center;
+}
+
+.faq-container > h6 {
+    font-weight: bold;
+}
+
+.feet {
+    bottom: 0;
+    width: 100%;
+    background-color: #FA6E83;
+    color: white;
+}
+
+.banner {
+    background-image: url('../Images/VectorBanner1.svg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.banner-content {
+    text-align: left;
+    padding: 8rem;
+    color: white;
+}
+
+.banner-content > h1 {
+    font-size: 45px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner-content > p {
+    font-size: 24px;
+}
+
+.col-md-5 {
+    padding: 3rem;
+}

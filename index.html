@@ -7,11 +7,12 @@
     <title>MIDS Final Project</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="../styles/carousel.css" type="text/css" rel="stylesheet">
+    <link href="../styles/styles.css" type="text/css" rel="stylesheet">
 
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-menu nav-colors">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Fundalytics</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,18 +27,21 @@
                 <a class="nav-link" href="#">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Mission</a>
+                <a class="nav-link" href="#Mission">Mission</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Behind the Data</a>
+                <a class="nav-link" href="#Tech">Tech</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#team" tabindex="-1" aria-disabled="true">Meet the Team</a>
+                <a class="nav-link" href="#team">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq" tabindex="-1" aria-disabled="true">FAQ</a>
               </li>
             </ul>
             <form class="d-flex">
               <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-              <button class="btn btn-outline-success" type="submit">Try for free</button>
+              <button class="btn go-button" type="submit">Try for free</button>
             </form>
           </div>
         </div>
@@ -45,189 +49,112 @@
     </header>
     
     <main>
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://media.istockphoto.com/id/1018330498/photo/concept-business-analytics-strategy-of-data-financial-graphs-or-diagrams-financial-review.jpg?s=612x612&w=0&k=20&c=ga1Va5-Zp9M77nVpASxIuNFq4rHkRk8O0vj_yBH_dmU=" alt="My Image">
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>Predictify</h1>
-                <p>The Startup Success Predictor</p>
-                <br>
-                <br>
-                <br>
-                <p><a class="btn btn-lg btn-primary" href="#">Predict your success now</a></p>
-                <br>
-                <br>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <!-- Second Item Carousel Image -->
-            <img src="https://media.istockphoto.com/id/1329547253/photo/computer-screen-financial-graph-display-with-banknotes-and-gold-coins-around-concepts-of.jpg?s=612x612&w=0&k=20&c=GT6_tryX4PijTT7lc3jcFakos13rLcCFm3XiqnrD4Sg=" alt="My Image">
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>Behind the Data</h1>
-                <p>Learn about the project</p>
-                <br>
-                <br>
-                <br>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn our why</a></p>
-                <br>
-                <br>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <!-- Third Item Carousel Image -->
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>Meet the Team</h1>
-                <p>UC Berkeley MIDS Graduates</p>
-                <br>
-                <br>
-                <br>
-                <p><a class="btn btn-lg btn-primary" href="#">Connect with Us</a></p>
-                <br>
-                <br>
-              </div>
+      <div>
+        <div class="">
+          <div class="banner">
+            <div class="banner-content">
+              <br>
+              <br>
+              <h1>Predictify</h1>
+              <p>The Startup Success Predictor</p>
+              <br>
+              <p><a class="predict-button" href="#">Predict your success now</a></p>
+              <br>
+              <br>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     
     
         <!-- START THE FEATURETTES -->
-    
-        <!-- <hr class="featurette-divider"> -->
-        <div class="row featurette">
-          <div class="col-md-7">
+      <div>
+        <hr class="featurette-divider squiggly-text" id="Mission">
+        <hr class="featurette-divider squiggly-text">
+        <div class="row featurette feature-container">
+          <div class="col-md-7 order-md-2 second-feature">
             <h2 class="featurette-heading">Our <span class="text-muted">Mission</span></h2>
-            <p class="lead">Build a machine learning model tool to help venture capitalists objectively predict and efficiently evaluate an early stage startup’s success.</p>
+            <p class="lead">Build a machine learning model tool to help venture capitalists objectively predict and efficiently evaluate an early stage startup’s success.
+            </p>
           </div>
-          <div class="col-md-5">
-            <img src="https://media.istockphoto.com/id/1360142545/photo/business-bar-graph-strategy-concept-on-blue-pastel-background-business-increase-positive.jpg?s=612x612&w=0&k=20&c=h4X0VEnInJdBrHsqJxjEkXX4O70BT9qrTwK_2D882qU=" alt="My Image">
+          <div class="col-md-5 order-md-1 second-feature">
+            <img class="feature-image second-feature-image" src="./Images/undraw_projections_re_ulc6.svg" alt="My Image">
           </div>
         </div>
-    
-        <hr class="featurette-divider">
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
+
+        <hr class="featurette-divider squiggly-text">
+        <div class="row featurette feature-container">
+          <div class="col-md-7">
             <h2 class="featurette-heading">Our <span class="text-muted">History</span></h2>
             <p class="lead">Venture capitalists face difficulties in filtering deals and evaluating the potential success of a startup due to scale and bias. With XXX, venture capitalists can make informed investment decisions, leading to increased returns and more successful investments.
             </p>
           </div>
-          <div class="col-md-5 order-md-1">
-            <img src="https://media.istockphoto.com/id/1458251461/photo/data-analysis-chart-graph-3d-statistics-background.jpg?s=612x612&w=0&k=20&c=tNLLfEsECLWbxxosBU_jvez-6uQvYe3ODGY6YPJ3AkI=" alt="My Image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Behind the <span class="text-muted">Data</span></h2>
-            <p class="lead">XXX harnesses machine learning algorithms and taps into multiple data sources, such as Preqin Venture Data, Crunchbase Venture Data, USTPO Patent Data, Google Trends, and many more...
-              After analyzing all the data, our models use these top factors to predict the startup's success: 
-            </p>
-          </div>
           <div class="col-md-5">
-            <img src="https://media.istockphoto.com/id/1179989140/photo/statistics-research.jpg?s=612x612&w=0&k=20&c=6TXcFjEreVCGVaGhSrBzDNOzld_QSKKKkwMo3EalxhU=" alt="My Image">
+            <img class="feature-image" src="./Images/undraw_data_points_re_vkpq 1Feature1.svg" alt="My Image">
           </div>
         </div>
 
-        <!-- <hr class="featurette-divider">
-        <div class="row featurette">
+        <hr class="featurette-divider squiggly-text" id="Tech">
+        <div class="row featurette feature-container squiggly">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Modeling<span class="text-muted"></span></h2>
-            <p class="lead">What types of models did we use?
+            <h2 class="featurette-heading squiggly-text">Our <span class="squiggly-text">Technology</span></h2>
+            <p class="lead squiggly-text">XXX harnesses machine learning algorithms and taps into multiple data sources, such as Preqin Venture Data, Crunchbase Venture Data, USTPO Patent Data, Google Trends, and many more...
+              After analyzing all the data, our models use these top factors to predict the startup's success. 
             </p>
-          </div>
-          <div class="col-md-5 order-md-1"> -->
-            <!-- <img src="" alt="My Image"> -->
-          <!-- </div>
-        </div>
-
-        <hr class="featurette-divider">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Results<span class="text-muted"></span></h2>
-            <p class="lead">Single and Batch Classifications and SHAP Values. 
-            </p>
-          </div>
-          <div class="col-md-5 order-md-1"> -->
-            <!-- <img src="" alt="My Image"> -->
-          <!-- </div>
-        </div> -->
-    
-        <!-- <hr class="featurette-divider">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">UC Berkeley <span class="text-muted">MIDS</span></h2>
-            <p class="lead">Class of 2023</p>
+            <br>
+            <br>
+            <br>
+            <br>
           </div>
           <div class="col-md-5">
-            <img src="https://64.media.tumblr.com/8969a60cbc98556b55054302d51bd759/tumblr_nxdizp00Eu1tpqi2fo1_640.jpg" alt="My Image">
+            <img class="feature-image" src="./Images/undraw_code_review_re_woeb 1Feature3.svg" alt="My Image">
           </div>
-        </div> -->
-    
-        <hr class="featurette-divider">
-        <h2 id="meet">Meet the Team<span class="text-muted"></span></h2>
-
+        </div>
+        <hr class="featurette-divider squiggly-text">
+      </div> 
          <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
     
       <div class="marketing">
+        <h1 class="meeting-header" id="team">Meet the Team</h1>
         <div class="marketing-container">
         <!-- Four columns of text below the carousel -->
           <div class="row">
             <div class="col-lg-3">
               <img id="col-img" src="https://ca.slack-edge.com/T0WA5NWKG-U01LC7ED49F-dfb50aca3c8a-512" alt="My Image">
-              <h2>Tyler Chi 
+              <h3>Tyler Chi 
                 <a href="https://www.linkedin.com/in/tyler-chi/">
                   <img id="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="My Image">
                 </a> 
-              </h2>
+              </h3>
               <p>Model Development</p>
             </div><!-- /.col-lg-3 -->
             <div class="col-lg-3">
               <img id="col-img" src="https://ca.slack-edge.com/T0WA5NWKG-U01TERW0B4L-86eb4b2eb74c-512" alt="My Image">
-              <h2>Raghav Kaushik
+              <h3>Raghav Kaushik
                 <a href="https://www.linkedin.com/in/raghavkau/">
                   <img id="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="My Image">
                 </a> 
-              </h2>
+              </h3>
               <p>Feature Engineering</p>
             </div><!-- /.col-lg-3 -->
             <div class="col-lg-3">
               <img id="col-img" src="https://ca.slack-edge.com/T0WA5NWKG-U01TADJ7KAN-d613205d5346-512" alt="My Image">
-              <h2>Sean Koval
+              <h3>Sean Koval
                 <a href="https://www.linkedin.com/in/sean-koval-ab7aa813b/">
                   <img id="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="My Image">
                 </a> 
-              </h2>
+              </h3>
               <p>Resident Subject Matter Expert & Project Manager</p>
             </div><!-- /.col-lg-3 -->
             <div class="col-lg-3">
               <img id="col-img" src="https://ca.slack-edge.com/T0WA5NWKG-U02894E1DQB-fba56659958c-512" alt="My Image">
-              <h2>Audrey Phone
+              <h3>Audrey Phone
                 <a href="https://www.linkedin.com/in/audrey-phone/">
                   <img id="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="My Image">
                 </a> 
-              </h2>
+              </h3>
               <p>Product Deployment/UI</p>
             </div><!-- /.col-lg-3 -->
           </div><!-- /.row -->
@@ -235,10 +162,28 @@
         <!-- /END THE FEATURETTES -->
     
       </div><!-- /.container -->
-    
+      <div>
+        <br>
+        <br>
+        <h1 class="meeting-header">FAQ</h1>
+        <div class="faq-container">
+          <h6>QUESTION 1</h6>
+          <p>THIS IS THE ANSWER</p>
+          <h6>QUESTION 2</h6>
+          <p>THIS IS THE ANSWER</p>
+          <h6>QUESTION 3</h6>
+          <p>THIS IS THE ANSWER</p>
+          <h6>Have more quesitons? Contact us!</h6>
+          <p>ucbmids@berkeley.edu</p>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+      </div>
     
       <!-- FOOTER -->
-      <footer class="container">
+      <footer class="feet">
         <p><a href="#">Back to top</a></p>
         <p>&copy; 2023 Fundalytics Inc.</p>
         <p><a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
