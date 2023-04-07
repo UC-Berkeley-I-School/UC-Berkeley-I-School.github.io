@@ -30,16 +30,16 @@
 }
 
 .nav-colors {
-    background-image: url('../Images/Rectangle\ 320Nav.svg');
+    background-image: url('../Images/Rectangle\ 321Nav.svg');
     background-size: cover;
     background-position: center;
 }
 
 .squiggly {
-    background-image: url('../Images/FrameSquiggly.svg');
+    background-image: url('../Images/Group\ 196PinkSquiggly.svg');
     background-size: cover;
-    padding: 20px;
     height: 600px;
+    padding: 5rem;
   }
 
 .squiggly-text {
@@ -84,7 +84,7 @@
 }
 
 .banner {
-    background-image: url('../Images/VectorBanner1.svg');
+    background-image: url('../Images/Group\ 197Banner1.svg');
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -107,4 +107,8 @@
 
 .col-md-5 {
     padding: 3rem;
+}
+
+.container-fluid {
+    margin-bottom: -0.5rem;
 }
