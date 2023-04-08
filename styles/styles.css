@@ -30,9 +30,9 @@
 }
 
 .nav-colors {
-    background-image: url('../Images/Rectangle\ 321Nav.svg');
+    background-image: url('../Images/Rectangle\ 321Gradient.svg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .squiggly {
@@ -84,10 +84,10 @@
 }
 
 .banner {
-    background-image: url('../Images/Group\ 197Banner1.svg');
-    background-size: cover;
+    background-image: url('../Images/Group\ 197Banner.svg');
+    background-size:contain;
     background-position: center;
-    height: 600px;
+    height: 500px;
 }
 
 .banner-content {
