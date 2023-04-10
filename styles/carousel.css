@@ -8,7 +8,6 @@
 
 body {
     padding-top: 3rem;
-    padding-bottom: 3rem;
     color: #5a5a5a;
   }
   
@@ -75,7 +74,7 @@ body {
   ------------------------- */
   
   .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 3rem 0; /* Space out the Bootstrap <hr> more */
   }
   
   /* Thin out the marketing headings */
