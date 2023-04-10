@@ -1,1 +1,1 @@
-# startup.github.io
+# uc-berkeley-i-school.github.io
