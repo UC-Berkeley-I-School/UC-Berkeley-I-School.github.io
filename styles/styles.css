@@ -165,3 +165,8 @@ footer {
     color: #FA6E83;
     cursor: pointer;
 }
+
+object.animated{
+    width: 800px;
+    height: 400px;
+  }
