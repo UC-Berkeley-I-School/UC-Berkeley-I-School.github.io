@@ -144,7 +144,7 @@ footer {
 
 .cta-button {
     background-color: white;
-    border-color: white;
+    border: 0px white;
     color: #FA6E83;
     text-align: center;
     font-weight: bold;
