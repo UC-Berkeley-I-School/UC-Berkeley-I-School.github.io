@@ -86,7 +86,6 @@
 footer {
     bottom: 0;
     width: 100%;
-    /* background-color: #FA6E83; */
     color: black;
     display: flex;
     justify-content: space-around;
@@ -167,6 +166,6 @@ footer {
 }
 
 object.animated{
-    width: 800px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
   }
