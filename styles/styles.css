@@ -39,6 +39,7 @@
     background-size: cover;
     background-position: top;
     background-color: #7361CF;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .squiggly {
@@ -138,7 +139,7 @@ footer {
 }
 
 .cta-title {
-    font-size: 56px;
+    font-size: 35px;
 }
 
 .cta-button {
@@ -165,7 +166,21 @@ footer {
     cursor: pointer;
 }
 
-object.animated{
+object.animated {
     width: 600px;
     height: 300px;
   }
+
+.logo {
+    width: 140px;
+    height: 50px;
+    color: white;
+    padding-right: 1.5rem;
+    padding-bottom: 0.25rem;
+}
+
+.cta-logo {
+    width: 400px;
+    height: 80px;
+    padding-bottom: 2rem;
+}
